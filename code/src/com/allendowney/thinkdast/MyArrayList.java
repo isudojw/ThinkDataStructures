@@ -44,8 +44,21 @@ public class MyArrayList<T> implements List<T> {
 
 	@Override
 	public boolean add(T element) {
-		// TODO: FILL THIS IN!
-		return false;
+
+        if (size >= array.length) {
+
+            T[] exArray = (T[]) new Object[array.length + (array.length >> 1)];
+
+            System.arraycopy(array, 0, exArray, 0 , array.length);
+
+            array = exArray;
+        }
+
+        array[size] = element;
+
+        size += 1;
+
+        return true;
 	}
 
 	@Override
@@ -110,7 +123,15 @@ public class MyArrayList<T> implements List<T> {
 
 	@Override
 	public int indexOf(Object target) {
-		// TODO: FILL THIS IN!
+
+	    for(int i = 0; i < size; i++) {
+
+            if (this.equals(target, array[i])) {
+
+                return i;
+            }
+        }
+
 		return -1;
 	}
 
@@ -119,7 +140,7 @@ public class MyArrayList<T> implements List<T> {
 	 * Handles the special case that the target is null.
 	 *
 	 * @param target
-	 * @param object
+	 * @param element
 	 */
 	private boolean equals(Object target, Object element) {
 		if (target == null) {
@@ -181,8 +202,21 @@ public class MyArrayList<T> implements List<T> {
 
 	@Override
 	public T remove(int index) {
-		// TODO: FILL THIS IN!
-		return null;
+
+	    this.rangeCheck(index);
+
+        T holdElement = array[index];
+
+        int move = size - index - 1;
+
+        if (move > 0) {
+            System.arraycopy(array, index+1, array, index, move);
+        }
+
+        // GC and update "size" variable
+        array[--size] = null;
+
+        return holdElement;
 	}
 
 	@Override
@@ -201,8 +235,14 @@ public class MyArrayList<T> implements List<T> {
 
 	@Override
 	public T set(int index, T element) {
-		// TODO: FILL THIS IN!
-		return null;
+
+	    this.elementNullCheck(element);
+	    this.rangeCheck(index);
+
+        T orgElement = array[index];
+        array[index] = element;
+
+		return orgElement;
 	}
 
 	@Override
@@ -228,4 +268,21 @@ public class MyArrayList<T> implements List<T> {
 	public <U> U[] toArray(U[] array) {
 		throw new UnsupportedOperationException();
 	}
+
+	private void rangeCheck(int index) {
+
+        if (index < 0 || index >= size) {
+            throw new IndexOutOfBoundsException();
+        }
+
+    }
+
+    private void elementNullCheck(T element) {
+
+        if (element == null) {
+            throw new NullPointerException();
+        }
+
+    }
+
 }
