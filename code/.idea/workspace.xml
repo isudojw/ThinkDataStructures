@@ -14,28 +14,18 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="MyLinkedList.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/com/allendowney/thinkdast/MyLinkedList.java">
+          <file leaf-file-name="ProfileListAdd.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/com/allendowney/thinkdast/ProfileListAdd.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="398">
-                  <caret line="254" column="14" selection-start-line="254" selection-start-column="14" selection-end-line="254" selection-end-column="14" />
+                <state relative-caret-position="315">
+                  <caret line="104" column="21" lean-forward="true" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
                   <folding>
-                    <element signature="e#2543#2544#0" expanded="true" />
-                    <element signature="e#2591#2592#0" expanded="true" />
-                    <element signature="e#2707#2708#0" expanded="true" />
-                    <element signature="e#2739#2740#0" expanded="true" />
-                    <element signature="e#3744#3745#0" expanded="true" />
-                    <element signature="e#3767#3768#0" expanded="true" />
-                    <element signature="e#4163#4164#0" expanded="true" />
-                    <element signature="e#4181#4182#0" expanded="true" />
-                    <element signature="e#4243#4244#0" expanded="true" />
-                    <element signature="e#4261#4262#0" expanded="true" />
-                    <element signature="e#4748#4749#0" expanded="true" />
-                    <element signature="e#4796#4797#0" expanded="true" />
-                    <element signature="e#4970#4971#0" expanded="true" />
-                    <element signature="e#4988#4989#0" expanded="true" />
-                    <element signature="e#5706#5707#0" expanded="true" />
-                    <element signature="e#5754#5755#0" expanded="true" />
+                    <element signature="e#1158#1159#0" expanded="true" />
+                    <element signature="e#1195#1196#0" expanded="true" />
+                    <element signature="e#1681#1682#0" expanded="true" />
+                    <element signature="e#1719#1720#0" expanded="true" />
+                    <element signature="e#2195#2196#0" expanded="true" />
+                    <element signature="e#2233#2234#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -45,47 +35,19 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="MyLinkedList.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/allendowney/thinkdast/MyLinkedList.java">
+          <file leaf-file-name="ProfileListAdd.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/com/allendowney/thinkdast/ProfileListAdd.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="172">
-                  <caret line="157" selection-start-line="157" selection-end-line="157" />
+                <state relative-caret-position="195">
+                  <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
                   <folding>
-                    <element signature="e#2122#2123#0" expanded="true" />
-                    <element signature="e#2170#2171#0" expanded="true" />
-                    <element signature="e#2286#2287#0" expanded="true" />
-                    <element signature="e#2318#2319#0" expanded="true" />
-                    <element signature="e#3323#3324#0" expanded="true" />
-                    <element signature="e#3346#3347#0" expanded="true" />
-                    <element signature="e#3742#3743#0" expanded="true" />
-                    <element signature="e#3760#3761#0" expanded="true" />
-                    <element signature="e#3822#3823#0" expanded="true" />
-                    <element signature="e#3840#3841#0" expanded="true" />
-                    <element signature="e#4312#4313#0" expanded="true" />
-                    <element signature="e#4360#4361#0" expanded="true" />
-                    <element signature="e#4534#4535#0" expanded="true" />
-                    <element signature="e#4552#4553#0" expanded="true" />
-                    <element signature="e#5270#5271#0" expanded="true" />
-                    <element signature="e#5318#5319#0" expanded="true" />
+                    <element signature="e#1158#1159#0" expanded="true" />
+                    <element signature="e#1195#1196#0" expanded="true" />
+                    <element signature="e#1681#1682#0" expanded="true" />
+                    <element signature="e#1719#1720#0" expanded="true" />
+                    <element signature="e#2195#2196#0" expanded="true" />
+                    <element signature="e#2233#2234#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="MyLinkedListTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/allendowney/thinkdast/MyLinkedListTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="MyArrayListTest.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/com/allendowney/thinkdast/MyArrayListTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="172">
-                  <caret line="80" selection-start-line="80" selection-end-line="80" />
                 </state>
               </provider>
             </entry>
@@ -101,6 +63,7 @@
         <option value="$PROJECT_DIR$/src/com/allendowney/thinkdast/MyArrayListTest.java" />
         <option value="$PROJECT_DIR$/src/com/allendowney/thinkdast/MyArrayList.java" />
         <option value="$PROJECT_DIR$/src/com/allendowney/thinkdast/MyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/allendowney/thinkdast/ProfileListAdd.java" />
       </list>
     </option>
   </component>
@@ -161,9 +124,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyLinkedListTest">
-    <configuration name="ListClientExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.allendowney.thinkdast.ListClientExample" />
+  <component name="RunManager" selected="Application.ProfileListAdd">
+    <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.allendowney.thinkdast.MyLinkedList" />
       <module name="code" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -173,8 +136,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.allendowney.thinkdast.MyLinkedList" />
+    <configuration name="ProfileListAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.allendowney.thinkdast.ProfileListAdd" />
       <module name="code" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -295,19 +258,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ListClientExample" />
       <item itemvalue="JUnit.ListClientExampleTest" />
       <item itemvalue="JUnit.MyArrayListTest" />
       <item itemvalue="JUnit.MyLinkedListTest" />
       <item itemvalue="Application.MyLinkedList" />
+      <item itemvalue="Application.ProfileListAdd" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProfileListAdd" />
         <item itemvalue="JUnit.MyLinkedListTest" />
         <item itemvalue="Application.MyLinkedList" />
         <item itemvalue="JUnit.MyArrayListTest" />
         <item itemvalue="JUnit.ListClientExampleTest" />
-        <item itemvalue="Application.ListClientExample" />
       </list>
     </recent_temporary>
   </component>
@@ -325,15 +288,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyLinkedListTest - 2018.08.16 at 23h 57m 20s.xml">
-      <configuration name="MyLinkedListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyLinkedListTest - 2018.08.16 at 23h 58m 57s.xml">
-      <configuration name="MyLinkedListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyLinkedListTest - 2018.08.16 at 23h 59m 17s.xml">
-      <configuration name="MyLinkedListTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MyLinkedListTest - 2018.08.16 at 23h 59m 33s.xml">
       <configuration name="MyLinkedListTest" configurationId="JUnit" />
     </history-entry>
@@ -353,6 +307,15 @@
       <configuration name="MyLinkedListTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MyLinkedListTest - 2018.08.17 at 11h 17m 42s.xml">
+      <configuration name="MyLinkedListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyLinkedListTest - 2018.08.17 at 11h 27m 24s.xml">
+      <configuration name="MyLinkedListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyLinkedListTest - 2018.08.17 at 11h 28m 24s.xml">
+      <configuration name="MyLinkedListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyLinkedListTest - 2018.08.17 at 11h 29m 56s.xml">
       <configuration name="MyLinkedListTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -377,7 +340,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32947367" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32947367" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32947367" />
       <window_info id="Capture Tool" order="2" />
@@ -387,7 +350,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -448,13 +411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="477" lean-forward="true" selection-start-line="477" selection-end-line="477" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/allendowney/thinkdast/MyArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="583">
@@ -469,6 +425,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/allendowney/thinkdast/MyArrayListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/allendowney/thinkdast/MyLinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -476,17 +439,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/allendowney/thinkdast/MyArrayListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/allendowney/thinkdast/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="254" column="14" selection-start-line="254" selection-start-column="14" selection-end-line="254" selection-end-column="14" />
+        <state relative-caret-position="-1627">
+          <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
           <folding>
             <element signature="e#2543#2544#0" expanded="true" />
             <element signature="e#2591#2592#0" expanded="true" />
@@ -504,6 +460,39 @@
             <element signature="e#4988#4989#0" expanded="true" />
             <element signature="e#5706#5707#0" expanded="true" />
             <element signature="e#5754#5755#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1110">
+          <caret line="164" column="11" selection-start-line="164" selection-start-column="11" selection-end-line="164" selection-end-column="11" />
+          <folding>
+            <element signature="e#6283#6284#0" expanded="true" />
+            <element signature="e#6351#6352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/allendowney/thinkdast/Profiler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/allendowney/thinkdast/ProfileListAdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <element signature="e#1158#1159#0" expanded="true" />
+            <element signature="e#1195#1196#0" expanded="true" />
+            <element signature="e#1681#1682#0" expanded="true" />
+            <element signature="e#1719#1720#0" expanded="true" />
+            <element signature="e#2195#2196#0" expanded="true" />
+            <element signature="e#2233#2234#0" expanded="true" />
           </folding>
         </state>
       </provider>
