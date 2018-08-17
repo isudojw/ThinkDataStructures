@@ -82,45 +82,13 @@ public class MyLinkedList<E> implements List<E> {
 
 	@Override
 	public void add(int index, E element) {
-		//TODO: FILL THIS IN!
-
-		if (index < 0 || index > size) {
-			throw new IndexOutOfBoundsException();
-		}
-
-		if (head == null) {
-			this.add(element);
-			return;
-		}
-
 		if (index == 0) {
-
-			head = new Node(element, head);
-			size++;
-			return;
-
-		}
-
-		if (index == size) {
-
-			Node note = head;
-
-			for (; note.next != null ; note = note.next) {}
-
-			note.next = new Node(element);
-
+			Node node = getNode(index);
+			head = new Node(element, node);
 		} else {
-
-			Node note = head;
-
-			for (int i = 0; i < index-1; i++){
-				note = note.next;
-			}
-
-			// Set reference to next note
-			note.next = new Node(element, note.next);
+			Node node = getNode(index-1);
+			node.next = new Node(element, node.next);
 		}
-
 		size++;
 	}
 
@@ -257,45 +225,15 @@ public class MyLinkedList<E> implements List<E> {
 
 	@Override
 	public E remove(int index) {
-		//TODO: FILL THIS IN!
-
-		if (index < 0 || index >= size) {
-			throw new IndexOutOfBoundsException();
-		}
-
+		E element = getNode(index).data;
 		if (index == 0) {
-
-			E element = head.data;
-
 			head = head.next;
-
-			size--;
-
-			return element;
-		}
-
-		Node node = head;
-
-		if (index == size--) {
-			for (;node.next != null; node = node.next) {}
-			E element = head.data;
-			node = null;
-			size--;
-			return element;
-		}
-
-		for (int i = 0; i < index; i++) {
-
-			if (i == index-1) {
-				E element = node.next.data;
-				node.next = node.next.next;
-
-				return element;
-			}
+		} else {
+			Node note = getNode(index -1);
+			note.next = getNode(index +1);
 		}
 		size--;
-
-		return null;
+		return element;
 	}
 
 	@Override

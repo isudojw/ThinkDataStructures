@@ -17,8 +17,8 @@
           <file leaf-file-name="MyLinkedList.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/allendowney/thinkdast/MyLinkedList.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="103" column="28" lean-forward="true" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
+                <state relative-caret-position="398">
+                  <caret line="254" column="14" selection-start-line="254" selection-start-column="14" selection-end-line="254" selection-end-column="14" />
                   <folding>
                     <element signature="e#2543#2544#0" expanded="true" />
                     <element signature="e#2591#2592#0" expanded="true" />
@@ -30,12 +30,12 @@
                     <element signature="e#4181#4182#0" expanded="true" />
                     <element signature="e#4243#4244#0" expanded="true" />
                     <element signature="e#4261#4262#0" expanded="true" />
-                    <element signature="e#4733#4734#0" expanded="true" />
-                    <element signature="e#4781#4782#0" expanded="true" />
-                    <element signature="e#4955#4956#0" expanded="true" />
-                    <element signature="e#4973#4974#0" expanded="true" />
-                    <element signature="e#5691#5692#0" expanded="true" />
-                    <element signature="e#5739#5740#0" expanded="true" />
+                    <element signature="e#4748#4749#0" expanded="true" />
+                    <element signature="e#4796#4797#0" expanded="true" />
+                    <element signature="e#4970#4971#0" expanded="true" />
+                    <element signature="e#4988#4989#0" expanded="true" />
+                    <element signature="e#5706#5707#0" expanded="true" />
+                    <element signature="e#5754#5755#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -49,7 +49,7 @@
             <entry file="file://$PROJECT_DIR$/src/com/allendowney/thinkdast/MyLinkedList.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="172">
-                  <caret line="184" selection-start-line="184" selection-end-line="184" />
+                  <caret line="157" selection-start-line="157" selection-end-line="157" />
                   <folding>
                     <element signature="e#2122#2123#0" expanded="true" />
                     <element signature="e#2170#2171#0" expanded="true" />
@@ -325,9 +325,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyLinkedListTest - 2018.08.16 at 23h 56m 05s.xml">
-      <configuration name="MyLinkedListTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MyLinkedListTest - 2018.08.16 at 23h 57m 20s.xml">
       <configuration name="MyLinkedListTest" configurationId="JUnit" />
     </history-entry>
@@ -353,6 +350,9 @@
       <configuration name="MyLinkedListTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MyLinkedListTest - 2018.08.17 at 11h 16m 20s.xml">
+      <configuration name="MyLinkedListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyLinkedListTest - 2018.08.17 at 11h 17m 42s.xml">
       <configuration name="MyLinkedListTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -485,8 +485,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/allendowney/thinkdast/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="103" column="28" lean-forward="true" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
+        <state relative-caret-position="398">
+          <caret line="254" column="14" selection-start-line="254" selection-start-column="14" selection-end-line="254" selection-end-column="14" />
           <folding>
             <element signature="e#2543#2544#0" expanded="true" />
             <element signature="e#2591#2592#0" expanded="true" />
@@ -498,12 +498,12 @@
             <element signature="e#4181#4182#0" expanded="true" />
             <element signature="e#4243#4244#0" expanded="true" />
             <element signature="e#4261#4262#0" expanded="true" />
-            <element signature="e#4733#4734#0" expanded="true" />
-            <element signature="e#4781#4782#0" expanded="true" />
-            <element signature="e#4955#4956#0" expanded="true" />
-            <element signature="e#4973#4974#0" expanded="true" />
-            <element signature="e#5691#5692#0" expanded="true" />
-            <element signature="e#5739#5740#0" expanded="true" />
+            <element signature="e#4748#4749#0" expanded="true" />
+            <element signature="e#4796#4797#0" expanded="true" />
+            <element signature="e#4970#4971#0" expanded="true" />
+            <element signature="e#4988#4989#0" expanded="true" />
+            <element signature="e#5706#5707#0" expanded="true" />
+            <element signature="e#5754#5755#0" expanded="true" />
           </folding>
         </state>
       </provider>
