@@ -83,6 +83,45 @@ public class MyLinkedList<E> implements List<E> {
 	@Override
 	public void add(int index, E element) {
 		//TODO: FILL THIS IN!
+
+		if (index < 0 || index > size) {
+			throw new IndexOutOfBoundsException();
+		}
+
+		if (head == null) {
+			this.add(element);
+			return;
+		}
+
+		if (index == 0) {
+
+			head = new Node(element, head);
+			size++;
+			return;
+
+		}
+
+		if (index == size) {
+
+			Node note = head;
+
+			for (; note.next != null ; note = note.next) {}
+
+			note.next = new Node(element);
+
+		} else {
+
+			Node note = head;
+
+			for (int i = 0; i < index-1; i++){
+				note = note.next;
+			}
+
+			// Set reference to next note
+			note.next = new Node(element, note.next);
+		}
+
+		size++;
 	}
 
 	@Override
@@ -143,7 +182,17 @@ public class MyLinkedList<E> implements List<E> {
 
 	@Override
 	public int indexOf(Object target) {
-		//TODO: FILL THIS IN!
+
+		Node node = head;
+
+		for (int i = 0; i < size; i++) {
+
+			if (this.equals(target, node.data)) {
+				return i;
+			}
+
+			node = node.next;
+		}
 		return -1;
 	}
 
@@ -152,7 +201,7 @@ public class MyLinkedList<E> implements List<E> {
 	 * Handles the special case that the target is null.
 	 *
 	 * @param target
-	 * @param object
+	 * @param element
 	 */
 	private boolean equals(Object target, Object element) {
 		if (target == null) {
@@ -209,6 +258,43 @@ public class MyLinkedList<E> implements List<E> {
 	@Override
 	public E remove(int index) {
 		//TODO: FILL THIS IN!
+
+		if (index < 0 || index >= size) {
+			throw new IndexOutOfBoundsException();
+		}
+
+		if (index == 0) {
+
+			E element = head.data;
+
+			head = head.next;
+
+			size--;
+
+			return element;
+		}
+
+		Node node = head;
+
+		if (index == size--) {
+			for (;node.next != null; node = node.next) {}
+			E element = head.data;
+			node = null;
+			size--;
+			return element;
+		}
+
+		for (int i = 0; i < index; i++) {
+
+			if (i == index-1) {
+				E element = node.next.data;
+				node.next = node.next.next;
+
+				return element;
+			}
+		}
+		size--;
+
 		return null;
 	}
 
